@@ -10,7 +10,7 @@ namespace SecurityTokenService
     {
         public static readonly TimeSpan PersistentSessionLength = TimeSpan.FromDays(14);
         public static readonly string IssuerName = "Security Token Service";
-        public static readonly X509Certificate2 TokenSigningCertificate =
+        public static readonly X509Certificate2 TokenSigningCertificate = 
             new X509Certificate2(HostingEnvironment.MapPath("~/App_Data/SecurityTokenService.pfx"));
         public static readonly string DefaultApplicationUrl = "http://localhost:51000";
 

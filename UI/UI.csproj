@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClaimsRequestValidator.cs" />
+    <Compile Include="ComputerCertificateValidator.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="FakeIssuerNameRegistry.cs" />
     <Compile Include="Global.asax.cs">
